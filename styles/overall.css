@@ -1,0 +1,26 @@
+@import url(reset.css);
+@import url(header.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+
+    --cor1: #FFFFFF;
+    --cor2: #ECE5D8;
+    --cor3: #19323C;
+    --cor4: #E4341C;
+
+    --fonte1:"Manrope", sans-serif;
+    --fonte2:"Work Sans", sans-serif;
+
+}
+
+.limiter {
+    max-width: 1000px;
+}
+
+.aligner {
+    margin: 0 auto;
+}

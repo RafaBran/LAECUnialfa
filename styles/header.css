@@ -1,0 +1,38 @@
+.containner__header {
+    width: 100%;
+    height: 150px;
+    background-color: var(--cor2);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header__titulo {
+    color: var(--cor4);
+    font-weight: bolder;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+
+.header__menu_opcao {
+    background-color: yellowgreen;
+    margin: 0.2rem ;
+}
+
+
+
