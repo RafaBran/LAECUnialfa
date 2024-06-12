@@ -1,0 +1,53 @@
+.containner__header {
+    width: 100%;
+    height: 130px;
+    background-color: var(--cor2);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1__header {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--cor4);
+}
+
+.header__titulo {
+    height: 70%;
+    width: 100%;
+    font-weight: bolder;
+    font-size: 3rem;
+    line-height: 3em;
+}
+
+.header__menu {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header__menu_opcao {
+    margin-right: 1.5rem;
+    font-family: var(--fonte1);
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+.box2__header {
+    width: 20%;
+    height: 100%;
+    background-color: yellow;
+}
+
+
+
+
+
