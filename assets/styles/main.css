@@ -1,0 +1,33 @@
+.containner__main {
+    width: 100%;
+    height: 80vh;
+    background-color: brown;
+    display: flex;
+}
+
+.box1__main {
+    background-color: var(--cor3);
+    width: 50%;
+    height: 100%;
+}
+
+.box2__warper{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.box2__main {
+    background-image: url(../images/caixas\ de\ skinner.jpg);
+    transition: transform 20s;
+    background-position: center;
+    background-size: cover;
+    background-color: blueviolet;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.zoomed {
+    transform: scale(1.2);
+}
