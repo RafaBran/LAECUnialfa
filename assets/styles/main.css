@@ -19,7 +19,7 @@
 
 .box2__main {
     background-image: url(../images/caixas\ de\ skinner.jpg);
-    transition: transform 20s;
+    transition: transform 2s;
     background-position: center;
     background-size: cover;
     background-color: blueviolet;
@@ -29,5 +29,12 @@
 }
 
 .zoomed {
-    transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+@media (max-width: 800px){
+    .containner__main {
+        height: 50vh;
+    }
+   
 }

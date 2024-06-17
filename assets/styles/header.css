@@ -9,7 +9,7 @@
 }
 
 .box1__header {
-    width: 100%;
+    width: 60%;
     height: 100%;
     display: flex;
     align-items: flex-start;
@@ -18,11 +18,19 @@
     color: var(--cor4);
 }
 
+.box__titutlo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .header__titulo {
     height: 70%;
     width: 100%;
     font-weight: bolder;
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 3em;
     text-shadow: 1px 1px 1px var(--cor4);
 }
@@ -32,6 +40,7 @@
     width: 100%;
     display: flex;
     align-items: center;
+    text-align: center;
 }
 
 .header__menu_opcao {
@@ -40,14 +49,88 @@
     font-size: 0.8rem;
     font-weight: bold;
     letter-spacing: 0.1rem;
+    margin-bottom: 0.3rem;
 }
 
 .box2__header {
-    width: 20%;
+    width: 30%;
     height: 100%;
     background-color: rgb(0, 255, 13);
 }
 
+.containner__menu-hamburger{
+    height: auto;
+    display: none;
+}
+
+.menu__hamburger{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+}
+
+
+.mobile__menu{
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+@media (max-width: 1300px){
+    .box2__header {
+        display: none;
+    }
+    .box1__header {
+        width: 100%;
+    }
+    .header__titulo {
+        margin-left: 2rem;
+    }
+    .header__menu {
+        margin-left: 2rem;
+    }
+}
+
+@media (max-width: 800px){
+    .containner__header {
+        height: 20vh;
+       
+    }
+    .header__titulo {
+        width: 60%;
+        height: 100%;
+        line-height: 120px;
+        margin: 0;
+        text-align: center;
+
+    }
+    .header__menu{
+        flex-direction: column;
+        width: 30%;
+        height: 100%;
+        margin-top: 0.5rem;
+        align-items: flex-start;
+    }
+    .box1__header{
+        flex-direction: row;
+        align-items:flex-start;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 520px){
+    .header__titulo {
+        font-size: 2rem;
+    }
+    .header__menu_opcao{
+        font-size: 0.7rem;
+    }
+    .header__titulo {
+        width: 55%;
+    }
+}
 
 
 
