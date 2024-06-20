@@ -24,6 +24,14 @@
     background-color: #E4341C;
 }
 
+.aligner {
+    max-width: 1024px;
+}
+
+.centralizes {
+    margin: 0 auto;
+}
+
 body, html {
     margin: 0;
     padding: 0;
