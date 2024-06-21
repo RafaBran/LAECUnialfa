@@ -12,6 +12,7 @@
     --cor2: #ECE5D8;
     --cor3: #19323C;
     --cor4: #E4341C;
+    --cor5: #646464;
 
     --fonte1:"Manrope", sans-serif;
     --fonte2:"Work Sans", sans-serif;
@@ -25,7 +26,7 @@
 }
 
 .limiter {
-    max-width: 1024px;
+    max-width: 1330px;
 }
 
 .aligner {

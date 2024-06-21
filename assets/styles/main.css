@@ -82,11 +82,111 @@
     height: 100%;
 }
 
-
-
 .containner2__main {
     width: 100%;
     height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card__laboratorio {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 1px 30px 1px var(--cor3);
+    border-radius: 30px;
+    background-color: var(--cor1);
+    font-family: var(--fonte2);
+}
+
+.card__laboratorio h2{
+    font-size: 1.5rem;
+    margin: 2rem;
+    color: var(--cor4);
+}
+
+.card__laboratorio p{
+    font-size: 1.5rem;
+    margin: 2rem;
+    text-align: justify;
+    font-size: 1.3rem;
+    color: var(--cor5);
+}
+
+.containner3__main {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor3);
+}
+
+.card__boas-praticas {
+    width: 100%;
+    height: 80%;
+    background-color: var(--cor3);
+    font-family: var(--fonte2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box__boas-praticas {
+    width: 32%;
+    background-color: var(--cor2);
+    height: 100%;
+    line-height: 1.3rem;
+}
+
+.box__boas-praticas h2 {
+    color: var(--cor4);
+    margin: 2rem;
+    font-size: 1.5rem;
+}
+.box__boas-praticas p {
+    color: var(--cor3);
+    text-align: left;
+    margin: 2rem;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+.documento__boas-praticas{
+    width: 32%;
+    height: 100%;
+    border: 2px solid var(--cor4);
+    transition: 1s;
+    background-color: var(--cor1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.documento__boas-praticas a{
+    width: 30%;
+    transition: 1s;
+}
+.documento__boas-praticas a:hover{
+    transform: scale(1.2);
+}
+
+.foto-ratinho{
+    width: 100%;
+}
+
+.documento__boas-praticas:hover{
+    cursor: pointer;
+}
+
+.imagem__boas-praticas{
+    width: 32%;
+    height: 100%;
+    background-image: url(../images/foto-ratinho.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 1px 30px 5px var(--cor3);
+    border: 2px solid var(--cor1);
 }
 
 @media (max-width: 1060px){
@@ -117,7 +217,6 @@
     }
     .box1__main {
         width: 100%;
-
     }
 }
 
