@@ -24,11 +24,11 @@
     background-color: #E4341C;
 }
 
-.aligner {
+.limiter {
     max-width: 1024px;
 }
 
-.centralizes {
+.aligner {
     margin: 0 auto;
 }
 
@@ -36,7 +36,6 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow: hidden;
 }
 
 a {
