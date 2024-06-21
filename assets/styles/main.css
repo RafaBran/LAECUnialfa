@@ -87,9 +87,60 @@
     transform: scale(1.2);
 }
 
+@media (max-width: 1060px){
+    .main__titulo {
+    font-size: 2rem;
+    }
+}
+
 @media (max-width: 800px){
     .containner__main {
         height: 50vh;
     }
+    .main__frase{
+        display: none;
+    }
+    .main__titulo {
+        font-size: 1rem;
+    }
+    .botao__agenda {
+        margin-top: 0;
+    }
    
+}
+
+@media (max-width: 600px){
+    .box2__warper{
+        display: none;
+    }
+    .box1__main {
+        width: 100%;
+
+    }
+}
+
+@media (max-width: 476px){
+    .header__titulo{
+        font-size: 1.5rem;
+    }
+    .header__menu{
+        margin-top: 1.5rem;
+        width: auto;
+    }
+    .header__menu_opcao{
+        font-size: 0.5rem;
+    }
+}
+
+@media (max-width: 327px){
+    .header__titulo{
+        font-size: 1rem;
+    }
+    .header__menu{
+        margin-top: 1.5rem;
+        margin-left: 0;
+    }
+    .main__subtitulo, .main__titulo, .botao__agenda {
+        margin-left: 2rem;
+    }
 }
