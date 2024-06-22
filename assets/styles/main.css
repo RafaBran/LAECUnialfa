@@ -92,11 +92,16 @@
 
 .card__laboratorio {
     width: 100%;
-    height: auto;
+    height: 80%;
     box-shadow: 0 1px 30px 1px var(--cor3);
     border-radius: 30px;
     background-color: var(--cor1);
     font-family: var(--fonte2);
+    overflow: scroll;
+}
+
+.card__laboratorio::-webkit-scrollbar {
+    width: 0px;
 }
 
 .card__laboratorio h2{
@@ -137,6 +142,11 @@
     background-color: var(--cor2);
     height: 100%;
     line-height: 1.3rem;
+    overflow: scroll;
+}
+
+.box__boas-praticas::-webkit-scrollbar {
+    width: 0px;
 }
 
 .box__boas-praticas h2 {
@@ -171,7 +181,7 @@
     transform: scale(1.2);
 }
 
-.foto-ratinho{
+.imagem__boas-praticas{
     width: 100%;
 }
 
@@ -179,7 +189,7 @@
     cursor: pointer;
 }
 
-.imagem__boas-praticas{
+.foto-ratinho{
     width: 32%;
     height: 100%;
     background-image: url(../images/foto-ratinho.png);
@@ -208,6 +218,15 @@
     .botao__agenda {
         margin-top: 0;
     }
+    .foto-ratinho{
+        display: none;
+    }
+    .documento__boas-praticas{
+        width: 49%;
+    }
+    .box__boas-praticas{
+        width: 49%;
+    }
    
 }
 
@@ -217,6 +236,26 @@
     }
     .box1__main {
         width: 100%;
+    }
+    .containner1__main{
+        height: 50vh;
+    }
+    .containner3__main {
+        height: 50vh;
+    }
+    .card__laboratorio{
+        height: auto;        
+    }
+    .card__laboratorio h2{
+        font-size: 1rem;
+        
+    }
+    .card__laboratorio p{
+        font-size: 1rem;
+    }
+    .box__boas-praticas p{
+        margin: 1rem;
+        font-size: 0.8rem;
     }
 }
 

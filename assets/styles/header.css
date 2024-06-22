@@ -79,7 +79,6 @@
 @media (max-width: 800px){
     .containner__header {
         height: 20vh;
-       
     }
     .header__titulo {
         width: 60%;
@@ -87,7 +86,6 @@
         line-height: 120px;
         margin: 0;
         text-align: center;
-
     }
     .header__menu{
         flex-direction: column;
@@ -103,11 +101,15 @@
         height: 100%;
         width: 100%;
     }
+
+    .header__menu_opcao{
+        margin-right: 0;
+    }
 }
 
-@media (max-width: 520px){
+@media (max-width: 560px){
     .header__titulo {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     .header__menu_opcao{
         font-size: 0.7rem;
