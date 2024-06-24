@@ -1,6 +1,7 @@
 @import url(reset.css);
 @import url(header.css);
 @import url(main.css);
+@import url(intervencoes.css);
 
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
@@ -16,7 +17,6 @@
 
     --fonte1:"Manrope", sans-serif;
     --fonte2:"Work Sans", sans-serif;
-
 }
 
 .gap {
