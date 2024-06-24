@@ -80,7 +80,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid var(--cor4);
 }
 
 .box__documento_intervencao img {
@@ -92,7 +91,6 @@
     height: 100%;
     display: flex;
     align-items: center;
-    border: 1px solid var(--cor4);
 }
 
 .box__titulo_intervencao h2 {
@@ -108,7 +106,6 @@
 .card__conteudo_intervencao {
     width: 100%;
     height: 80%;
-    border: 1px solid var(--cor4);
 }
 
 .card__conteudo_intervencao p {

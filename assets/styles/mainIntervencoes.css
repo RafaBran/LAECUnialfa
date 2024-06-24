@@ -1,0 +1,121 @@
+.containner4__main {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+
+.menu__intervencoes {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor1);
+    
+}
+
+.box__menu__intervencoes {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.box__menu__intervencoes a {
+   margin: 0.8rem 0;
+   background-color: violet;
+   width: 90%;
+   height: 2rem;
+   line-height: 2rem;
+   text-align: center;
+   font-family: var(--fonte1);
+   transition: 1s;
+   background-color: var(--cor1);
+   color: var(--cor1);
+   border-bottom: 2px solid var(--cor3);
+   letter-spacing: 0.2rem;
+   font-size: 1rem;
+   font-weight: bold;
+}
+
+.box__menu__intervencoes a:hover {
+    margin-left: 1rem;
+    border-bottom: 2px solid var(--cor4);
+    color: var(--cor3);
+
+ }
+
+.containner__intervencoes {
+    width: 80%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.containner__intervencoes::-webkit-scrollbar {
+    width: 0px;
+}
+
+.containner__conteudo_intercencoes {
+    width: 100%;
+    height: 100%;
+}
+
+.containner__intervencao {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__intervencao {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    border-bottom: 2px solid var(--cor4);
+
+}
+
+.box__documento_intervencao{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box__documento_intervencao img {
+    width: 30%;
+    transition: 1s;
+}
+.box__documento_intervencao img:hover {
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+.box__titulo_intervencao {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.box__titulo_intervencao h2 {
+    margin-left: 2rem;
+    font-size: 2rem;
+    font-family: var(--fonte2);
+    color: var(--cor4);
+}
+
+.card__conteudo_intervencao {
+    width: 100%;
+    height: 80%;
+}
+
+.card__conteudo_intervencao p {
+    margin: 2rem;
+    text-align: justify;
+    font-size: 1.2rem;
+}
