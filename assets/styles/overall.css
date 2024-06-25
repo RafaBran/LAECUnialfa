@@ -44,7 +44,5 @@ a {
     text-decoration: none;
 }
 
-a:visited {
-    color: var(--cor4);
-}
+
 
